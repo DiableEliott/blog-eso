@@ -7,8 +7,8 @@ Blog
 Publier a propos d'esoterisme, art, phylosophie, religion, musique, insipration, estatique, architecture, jeux videos 
     Receuil de pensée bordelique
 
-Estetique Sombre
+Estetique Sombre / minimaliste
     
 Permettre a des proches de publier
 
-UTILISER BOOTSTRAP
+UTILISER BOOTSTRAP?

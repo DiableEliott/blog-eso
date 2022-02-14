@@ -4,20 +4,34 @@
 }
 
 body{
-    background-color: #05070E;
+    background-color: #000000;
     color: white;
     font-family: Durer;
+    font-size: 20px;
+    /* background: url(./ressources/lighthouse3.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0%;
 }
+
+
 
 #navbar{
     text-decoration: none;
     font-size: 30px;
-    color: rgb(0, 0, 0);
-    background-color: #47536b;
+    /* color: rgb(255, 255, 255); */
+    background-color: #000000;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    align-items: center;
 }
 
 li{
@@ -26,10 +40,11 @@ li{
 
 li a{
     display: block;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-right: 1px solid #bbb;
 }
 
 li a:hover {
@@ -37,6 +52,12 @@ li a:hover {
 }
 
 h1{
-    font-size: 110px;
-    text-align: center
+    font-size: 120px;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+
+}
+
+p{
+    margin: 30px;
 }
