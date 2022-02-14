@@ -3,7 +3,7 @@ body{
     color: #ff9100;
     font-family: Durer;
     font-size: 20px;
-    /* background: url(./ressources/moonrisecontrast.jpg) no-repeat center center fixed; */
+    background: url(./ressources/menu-background-img.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
