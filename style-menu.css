@@ -1,9 +1,9 @@
 body{
     background-color: #000000;
-    color: white;
+    color: #ff9100;
     font-family: Durer;
     font-size: 20px;
-    background: url(./ressources/moonrise.jpg) no-repeat center center fixed;
+    /* background: url(./ressources/moonrisecontrast.jpg) no-repeat center center fixed; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -24,7 +24,7 @@ body{
 }
 
 #titre:hover{
-    color: #FFD700;
+    color: #ffd900;
 }
 
 a{
@@ -33,12 +33,12 @@ a{
     /* text-align: center; */
     left: 26.5%;
     top: 60%;
-    color: rgb(255, 255, 255);
+    color: #ff9100;
     text-decoration: none;
     transition: 0.3s
     /* background-color: red; */
 }
 
 a:hover{
-    color: #FFD700;
+    color: #ffd900;
 }
