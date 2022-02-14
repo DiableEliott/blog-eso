@@ -1,0 +1,44 @@
+body{
+    background-color: #000000;
+    color: white;
+    font-family: Durer;
+    font-size: 20px;
+    /* background: url(./ressources/lighthouse3.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0%;
+}
+
+#titre{
+    font-size: 200px;
+    left: 0;
+    line-height: 200px;
+    margin-top: -100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    transition: 0.3s
+}
+
+#titre:hover{
+    color: #FFD700;
+}
+
+a{
+    font-size: 30px;
+    position: absolute;
+    /* text-align: center; */
+    left: 26.5%;
+    top: 60%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s
+    /* background-color: red; */
+}
+
+a:hover{
+    color: #FFD700;
+}
