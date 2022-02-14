@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Durer;
+    src: url(./ressources/durer-font/Durer.ttf);
+}
+
+body{
+    background-color: #05070E;
+    color: white;
+    font-family: Durer;
+}
+
+#navbar{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: #47536b;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: red;
+}
+
+h1{
+    font-size: 110px;
+    text-align: center
+}
