@@ -12,3 +12,7 @@ Estetique Sombre / minimaliste
 Permettre a des proches de publier
 
 UTILISER BOOTSTRAP?
+
+Menu : ok
+Exemple page article : ok / changer nom
+Acceuil  : en cours : creer les liens, reflechir au design / fond 

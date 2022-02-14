@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Durer;
+    src: url(./ressources/durer-font/Durer.ttf);
+}
+
+body{
+    background-color: #000000;
+    color: #ff9100;;
+    font-family: Durer;
+    font-size: 30px;
+    background: url(./ressources/menu-background-img.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0%;
+}
+
+
+li{
+    font-size: 61px;
+    text-decoration: none;
+    display: block;
+    color: #ffefdb;
+    text-align: center;
+    padding: 14px 100px;
+    position: relative; 
+    top: 350px;
+    left: 25%;
+    /* width: 100%; */
+    transform: translate(-50%, -50%);
+    float: left;
+    transition: 0.3s;
+}
+
+a{
+ 
+}
+
+li a:hover {
+    color: #ffd900;
+}
+
+#titre{
+    font-size: 100px;
+    left: 0;
+    line-height: 200px;
+    margin-top: 100px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    transition: 0.3s
+}
+
+#titre:hover{
+    color: #ffd900;
+}
+
+a{
+    font-size: 30px;
+    position: absolute;
+    /* text-align: center; */
+    /* left: 26.5%;
+    top: 60%; */
+    color: #ff9100;
+    text-decoration: none;
+    transition: 0.3s
+    /* background-color: red; */
+}
+
+a:hover{
+    color: #ffd900;
+}
+
