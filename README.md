@@ -15,4 +15,4 @@ UTILISER BOOTSTRAP? non
 
 Menu : ok
 Exemple page article : ok / changer nom
-Acceuil  : en cours : creer les liens, reflechir au design / fond 
+Acceuil  : en cours : creer / reflechir aux liens, creer texte presentation
