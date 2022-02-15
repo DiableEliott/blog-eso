@@ -8,38 +8,62 @@ body{
     color: #ff9100;;
     font-family: Durer;
     font-size: 30px;
-    background: url(./ressources/menu-background-img.jpg) no-repeat center center fixed;
+    background: url(./ressources/index-background-img.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 0%;
+    /* margin: 0%; */
 }
 
-
-li{
-    font-size: 61px;
-    text-decoration: none;
-    display: block;
-    color: #ffefdb;
+p{
+    position: relative;
+    top: 255px;
     text-align: center;
-    padding: 14px 100px;
-    position: relative; 
-    top: 350px;
-    left: 25%;
-    /* width: 100%; */
-    transform: translate(-50%, -50%);
-    float: left;
+}
+
+.menu{
+    width: 37%;
+    /* background-color: rgb(0, 0, 0); */
+    top: 450px;
+    left: 30%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu :ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+.menu li{
+    width: 100%;
+    padding: 20px;
+    list-style-type: none ;
+
+}
+
+.menu a{
+    color: #ff9100;
+    padding: 20px;
+    font-size: 40px;
+    display:block;
+    text-align: center;
+    text-decoration: none;
     transition: 0.3s;
+    position: relative;
+    top: 350px;
 }
 
-a{
- 
-}
-
-li a:hover {
+.menu a:hover{
     color: #ffd900;
 }
+
 
 #titre{
     font-size: 100px;
@@ -48,28 +72,11 @@ li a:hover {
     margin-top: 100px;
     position: absolute;
     text-align: center;
-    top: 50%;
+    bottom: 5%;
     width: 100%;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 #titre:hover{
     color: #ffd900;
 }
-
-a{
-    font-size: 30px;
-    position: absolute;
-    /* text-align: center; */
-    /* left: 26.5%;
-    top: 60%; */
-    color: #ff9100;
-    text-decoration: none;
-    transition: 0.3s
-    /* background-color: red; */
-}
-
-a:hover{
-    color: #ffd900;
-}
-

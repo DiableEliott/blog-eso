@@ -11,7 +11,7 @@ Estetique Sombre / minimaliste
     
 Permettre a des proches de publier
 
-UTILISER BOOTSTRAP?
+UTILISER BOOTSTRAP? non
 
 Menu : ok
 Exemple page article : ok / changer nom
