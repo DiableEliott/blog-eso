@@ -1,6 +1,6 @@
 @font-face {
     font-family: Durer;
-    src: url(ressources\durer-font\Durer.ttf);
+    src: url(D:\projet-perso\presentation-eliott-giraud\blog-eso\ressources\durer-font\Durer.ttf);
 }
 
 body{
@@ -13,7 +13,6 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /* margin: 0%; */
 }
 
 p{
